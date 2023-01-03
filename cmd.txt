@@ -8,3 +8,5 @@ git add file_name
 git add .
 git log
 git commit -m "message"
+git checkout hash_code
+git checkout master
