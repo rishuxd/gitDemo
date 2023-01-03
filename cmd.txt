@@ -2,3 +2,7 @@ code .
 mkdir
 cd directory_name
 ls
+git init
+git status
+git add file_name
+git log 
