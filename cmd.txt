@@ -1,0 +1,4 @@
+code .
+mkdir
+cd directory_name
+ls
