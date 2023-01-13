@@ -18,3 +18,10 @@ git merge branch_name
 git remote -v
 git branch -M main
 git push -u origin master
+
+
+npm install gh-pages --save -dev
+npm run deploy
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+"homepage": "https://<username>.github.io/<repo-name>/#",
